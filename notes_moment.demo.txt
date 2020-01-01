@@ -1,0 +1,31 @@
+var timeAndDate = require('moment');
+
+var date = "2017-03-13";
+var time = "15:12:45";
+
+var timeAndDate = moment(date + ' ' + time);
+timeAndDate
+
+const moment = require('moment')
+inputString = '6:12:2019:7:11:27'
+timeAndDate = moment(inputString, 'DD:MM:YYYY:HH:MM:ss')
+timeAndDate = moment(inputString, 'DD:MM:YYYY:HH:MM:ss').unix()
+
+timeAndDate.format('dddd')
+timeAndDate.format('YYYY')
+timeAndDate.format('MM')
+timeAndDate.format('DD')
+timeAndDate.format('HH')
+timeAndDate.format('mm')
+timeAndDate.format('ss')
+
+
+
+const date1 = new Date('December 17, 1995 03:24:00');
+const date2 = new Date('December 17, 1995 03:24:10');
+//compare dates using <>
+date1>date2
+
+const date3 = new Date("6:12:2019:7:11:27") //invalid date format
+
+// need this date time format > 2018-12-30T20:59:00
